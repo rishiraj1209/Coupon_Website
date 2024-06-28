@@ -1,0 +1,28 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coupon Swap</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <h1>Coupon Swap</h1>
+    <div id="coupons-container"></div>
+    <div id="add-form">
+        <h2>Add a Coupon</h2>
+        <input type="text" id="new-coupon-code" placeholder="Enter coupon code">
+        <input type="text" id="description" placeholder="Enter description">
+        <button onclick="addCoupon()">Add</button>
+    </div>
+    <div id="swap-form">
+        <h2>Swap a Coupon</h2>
+        <input type="text" id="swap-coupon-code" placeholder="Enter coupon code to swap">
+        <button onclick="swapCoupon()">Swap</button>
+    </div>
+    <div id="result"></div>
+
+    <script src="../static/script.js"></script>
+</body>
+</html>

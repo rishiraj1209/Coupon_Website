@@ -1,0 +1,14 @@
+
+.Carousel{
+    height: 30vw;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal; ;
+}
